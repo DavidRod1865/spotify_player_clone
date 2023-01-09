@@ -38,7 +38,7 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <!-- <li><a href="#contributing">Contributing</a></li> -->
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -81,19 +81,13 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1. Install DOTENV and create .ENV File
+2. Enter your following in `.env`
+- REDIRECT_URI= Create Redirect URI
+- CLIENT_ID = Obtained @ Spotify Development API
+- CLIENT_SECRET = Obtained @ Spotify Development API
+
+CLIENT_ID & CLIENT_SECRET obtained at [Spotify API Website](https://developer.spotify.com/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
